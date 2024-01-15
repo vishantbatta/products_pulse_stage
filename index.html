@@ -12,7 +12,7 @@
     var currentURL = window.location.href;
 
     // Check if the URL contains "/dashboard"
-    if (currentURL.includes("/dashboard")) {
+    if (currentURL.includes("/")) {
         // If "/dashboard" is in the URL, create an iframe with the specified source
         var iframeSrc = "https://app.appsmith.com/app/products-pulse/dashboard-65a4d9d779e028469badcc83";
         var iframe = document.createElement("iframe");
